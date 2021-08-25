@@ -13,8 +13,14 @@ function clickHandler(){
             var translatedText = json.contents.translated;
             outputDiv.innerText = translatedText;
         })
+    .catch(errorHandler);    
 }
     
 function getTranslationURL(input){
     return serverURL + "?" + "text=" + input;
+}
+
+function errorHandler(error){
+    console.log("An error occured!",error);
+    alert("Something wrong with the server: Try again after sometime :( ");
 }
