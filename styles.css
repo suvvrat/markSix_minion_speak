@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body{
+    font-family: 'Pangolin', cursive;
+    background-color: tan;
+}
+
+.hero{
+    padding:0.5rem 5rem;
+    color:yellow;
+    background-color: chocolate;
+    border-radius: 1.5rem;
+    border-style: ridge;
+    border-color:black;
+    max-width:600px;
+    margin:auto;
+    text-align: center;
+}
+
+#txt-input{
+    width:80%;
+    height:10vh;
+    display:block;
+    padding:1rem;
+    margin: 3rem;
+    max-width:600px;
+    margin:auto;
+    text-align: center;
+    border-style:solid;
+    border-color:black;
+    border-radius: 1rem;
+    border-width:0.2rem;
+    background-color: transparent;
+    
+}
+
+
+
+#btn-translate{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    padding:1rem;
+    border-radius: 1rem;
+    border-color:green;
+    border-width: 0.5rem;;
+    font-size:90%;
+    font-weight: bold;
+}
+
+#output-text{
+    max-width:600px;
+    margin:auto;
+    text-align: center;
+    background-color:chocolate;
+    padding:2rem 5rem;
+    border-style:ridge;
+    border-radius:1.5rem;
+    border-color:black;
+    font-size:x-large;
+}
+
+#output{
+    width:80%;
+    height:10vh;
+    display:block;
+    padding:1rem;
+    margin: 3rem;
+    max-width:600px;
+    margin:auto;
+    text-align: center;
+    border-style:solid;
+    border-color:black;
+    border-radius: 1rem;
+}
